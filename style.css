@@ -1,0 +1,96 @@
+
+body{
+    background-color: #333399;
+    background-image: linear-gradient(to left,#C33764,#333399);
+    
+}
+main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: center;
+
+    
+    
+}
+h1{ 
+    font-size: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+    
+
+
+
+}
+
+
+
+.personagem{
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     width: 600px;
+
+
+}
+
+iframe{
+    position:absolute;
+    left: 10%;
+    top: 60%;
+    border-style: groove;
+    border-width: 40px ;
+    border-color: #5D26C1;
+}
+
+header {
+    width: 90VW;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.logo{
+    position: absolute;
+    height: 50px;
+    left: 10px;
+}
+ul{
+
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    font-size: 25px;
+    
+
+
+}
+
+.informaçoes{
+
+    text-decoration: none;
+
+    
+}
+
+.assistir{
+
+    text-decoration: none;
+
+    
+    }
+    a{
+
+        color: black;
+        font-style: inherit;
+    }
